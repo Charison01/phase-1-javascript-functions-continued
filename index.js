@@ -1,1 +1,25 @@
 // code your solution here
+function saturdayFun(activity = "roller-skate"){
+return `This Saturday, I want to ${activity}!`
+}
+console.log(saturdayFun());
+
+const mondayWork = function (work = "go to the office"){
+    return `This Monday, I will ${work}.`
+}
+console.log(mondayWork("going no where"));
+//
+(function (){
+    console.log("Yet more razzling");
+});
+//Anonymous fucntions passed as callback function
+//const button = document.getElementById("button");
+//button.addEventListener("click",function (){
+//    console.log("Yet more razzling");
+//});
+
+const fn = function () {
+    console.log("Yet more razzling");
+};
+fn();
+
